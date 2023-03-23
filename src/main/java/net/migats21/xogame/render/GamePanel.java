@@ -57,8 +57,8 @@ public class GamePanel extends JPanel {
         }
         if (levelState.hasStrike()) {
             byte b = levelState.getStrike();
-            x1 = ((int)b%3)*x3 + getWidth()/2;
-            y1 = ((int)b%3)*y3 + getHeight()/2;
+            x1 = ((int)b%3-1)*x3 + getWidth()/2;
+            y1 = ((int)b%3-1)*y3 + getHeight()/2;
             x2 = (int) (30 + levelState.getStrikeAnimationProgress() * (getWidth()-60));
             y2 = (int) (30 + levelState.getStrikeAnimationProgress() * (getHeight()-60));
             if (b < 3) {
