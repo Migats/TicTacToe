@@ -6,7 +6,7 @@ import java.awt.BorderLayout;
 public class XOFrame extends JFrame {
     GamePanel gamePanel;
     ScorePanel scorePanel;
-    public void init(String[] args) {
+    public void init() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800,800);
         // setResizable(false); The program can now be resized
