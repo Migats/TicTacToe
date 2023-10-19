@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2023 Migats21
- * net.migats21.xogame.util.Time (Obfuscated variables)
+ * net.migats21.xogame.util.Time
  */
 package net.migats21.xogame.util;
 

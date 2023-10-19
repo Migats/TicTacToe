@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2023 Migats21
- * net.migats21.xogame.level.LevelState (Obfuscated variables)
+ * net.migats21.xogame.level.LevelState
  */
 package net.migats21.xogame.level;
 
